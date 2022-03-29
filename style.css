@@ -1,0 +1,225 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    background: rgb(2,10,22);
+    background: linear-gradient(15deg, rgba(2,10,22,1) 0%, rgba(9,26,121,1) 50%, rgba(1,78,182,1)100%);
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+    padding-right: 30px;
+}
+
+.header {
+    margin: 12px 24px;
+}
+
+.header_logo {
+    max-width: 260px;
+}
+
+.header_nav {
+    align-content: center;
+}
+
+.hero_display {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px;
+    background: rgb(136,202,251);
+    background: linear-gradient(180deg, rgba(136,202,251,0.60) 0%, rgba(7,98,196,0.80) 95%);
+}
+
+.hero_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35vw;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+h1 {
+    font-size: 52px;
+    color: white;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #333333;
+    padding: 25px;
+}
+
+h3 {
+    color: white;
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 23px;
+    color: white;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+button {
+    padding: 25px;
+    border-radius: 10px;
+    border-color: #03254c;
+    font-weight: bold;
+    font-size: 21px;
+    color: #D0EFFF;
+    background-color: #1167B1
+}
+
+button:hover {
+    background-color: #03254c;
+    transition-duration: .5s;
+}
+
+#water_button {
+    padding: 25px;
+    width: 25%;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #1167b1;
+    background-color: white;
+    border-color: #1167B1; 
+    border-width: medium;
+}
+
+#water_button:hover {
+    border-color: #03254c;
+    transition-duration: .5s;
+    color: #03254c;
+}
+
+.team_container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team_member {
+    display: flex;
+    flex-direction: column;
+}
+
+.member {
+    width: 185px;
+    height: auto;
+    border-radius: 10px;
+    display: flex;
+    align-self: center;
+}
+
+.w {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+
+.inspiring_quote {
+    background-color: rgb(227, 238, 253);
+}
+
+.quote {
+    font-size: 28px;
+    padding: 25px;
+    margin: 0;
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px 200px;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    justify-content: center;
+    margin: 50px 25px;
+}
+
+.signup_left {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+
+.signup_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 21px;
+    color: white;
+    border: solid;
+    border-width: medium;
+    width: 200px;
+    align-items: center;
+    border-radius: 10px;
+
+}
+.call_action {
+    display: flex;
+    flex-direction: row;
+    color: #1167B1;
+    background-color: #1167B1;
+    margin: 0;
+    padding: 45px 100px;
+    border-radius: 10px;
+    width: 75%;
+    height: 60px;
+    justify-content: space-between;
+}
+
+.drink_water {
+    color: white;
+    display: flex;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #03254c;
+    color: #1167B1;
+    font-size: 14px;
+    height: 60px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 12px;
+    margin: 0;
+}
